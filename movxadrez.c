@@ -9,7 +9,7 @@ int main() {
     // Aqui fazemos os movimentos requeridos do BISPO.
     // Utilizamos o for pra fazer os movimentos diagonais
         for(int bispo = 0; bispo < 5 ; bispo++){
-        printf("Movimentando seu BISPO pra DIAGONAL,Cima e Direita \n");
+        printf("Cima,Direita... \n");
     }
 
     printf("\n");
@@ -20,7 +20,7 @@ int main() {
     // 5 posições diagonais pra direia.
 
     do {
-        printf("Movimentando sua TORRE pra direita... \n");
+        printf("Direita... \n");
         torre++;
     } while (torre < 5);
 
@@ -29,7 +29,7 @@ int main() {
 
     printf("*** Vamos movimentar sua RAINHA! *** \n");
     while (rainha < 8) {
-        printf("Movimentando sua RAINHA pra esquerda... \n");
+        printf("Esquerda... \n");
         rainha++;
     }
     printf("\n");
